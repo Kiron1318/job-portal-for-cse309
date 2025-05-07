@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .job-card {
+            margin-bottom: 20px;
+        }
+        .job-card-header {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+        .search-bar {
+            margin-top: 30px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f8f9fa;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">JobPortal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Job Listings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Post a Job</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="container search-bar">
+        <h3>Find Your Dream Job</h3>
+        <form class="form-inline">
+            <input class="form-control mr-2" type="search" placeholder="Search for jobs..." aria-label="Search">
+            <select class="form-control mr-2">
+                <option>All Categories</option>
+                <option>Software</option>
+                <option>Marketing</option>
+                <option>Design</option>
+            </select>
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+    </div>
+
+    <!-- Job Listings -->
+    <div class="container">
+        <h3 class="mt-5">Latest Job Listings</h3>
+        <div class="row">
+            <!-- Job Card 1 -->
+            <div class="col-md-4">
+                <div class="card job-card">
+                    <div class="card-header job-card-header">
+                        Software Engineer
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tech Company</h5>
+                        <p class="card-text">Location: Dhaka</p>
+                        <p class="card-text">Experience: 6 Months </p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Job Card 2 -->
+            <div class="col-md-4">
+                <div class="card job-card">
+                    <div class="card-header job-card-header">
+                        Marketing Specialist
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Marketing Agency</h5>
+                        <p class="card-text">Location: Dhaka</p>
+                        <p class="card-text">Experience: Intern</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Job Card 3 -->
+            <div class="col-md-4">
+                <div class="card job-card">
+                    <div class="card-header job-card-header">
+                        UX Designer
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Design Studio</h5>
+                        <p class="card-text">Location: Dhaka</p>
+                        <p class="card-text">Experience: Intern</p>
+                       <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+           <!-- Job Card 4 -->
+            <div class="col-md-4">
+                <div class="card job-card">
+                    <div class="card-header job-card-header">
+                        Engineer
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">System Enginer</h5>
+                        <p class="card-text">Location: Dhaka</p>
+                        <p class="card-text">Experience: Intern</p>
+                       <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+         <!-- Job Card 5 -->
+            <div class="col-md-4">
+                <div class="card job-card">
+                    <div class="card-header job-card-header">
+                        Engineer
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Software Developer</h5>
+                        <p class="card-text">Location: Dhaka</p>
+                        <p class="card-text">Experience: 2 Years</p>
+                       <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Job Card 6 -->
+            <div class="col-md-4">
+                <div class="card job-card">
+                    <div class="card-header job-card-header">
+                        Engineer
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Technical Lead</h5>
+                        <p class="card-text">Location: Dhaka</p>
+                        <p class="card-text">Experience: 4 Years</p>
+                       <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            
